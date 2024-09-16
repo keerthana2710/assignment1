@@ -1,0 +1,65 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.expenses-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.expenses-list table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+.expenses-list th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+.total {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .expenses-list table {
+    font-size: 14px;
+  }
+
+  .total {
+    font-size: 16px;
+  }
+}
